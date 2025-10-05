@@ -1,0 +1,21 @@
+{
+  "name": "jslearning",
+  "version": "1.0.0",
+  "description": "1. Create LearningPlan.md",
+  "homepage": "https://github.com/patrikmacak93-pixel/jsLearning#readme",
+  "bugs": {
+    "url": "https://github.com/patrikmacak93-pixel/jsLearning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrikmacak93-pixel/jsLearning.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
