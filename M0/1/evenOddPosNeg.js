@@ -1,17 +1,18 @@
-const checkNumber = 1;
+const checkNumber = process.argv[2];
+console.log(checkNumber);
 let posNeg = 0;
 let evenOdd = 0;
 
-if (checkNumber > 0){
-    let posNeg = "Number is positive"
-} else{
-    let posNeg = "Numebr is negative"
-};
-
-if (checkNumber % 2 === 0){
-    let evenOdd = "Number is even"
+if (checkNumber > 0) {
+  posNeg = "Number is positive";
 } else {
-    let evenOdd = "Numebr is even"
+  posNeg = "Numebr is negative";
 }
 
-console.log(posNeg + ' & ' + evenOdd);
+if (checkNumber % 2 === 0) {
+  evenOdd = "Number is even";
+} else {
+  evenOdd = "Numebr is even";
+}
+
+console.log(posNeg + " & " + evenOdd);
