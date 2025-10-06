@@ -1,5 +1,4 @@
 const checkNumber = process.argv[2];
-console.log(checkNumber);
 let posNeg = 0;
 let evenOdd = 0;
 
